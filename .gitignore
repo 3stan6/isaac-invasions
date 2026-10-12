@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+*.zip
+*.log
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Environment & secrets
+.env
+*.token
+*.key
+melty_token.txt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

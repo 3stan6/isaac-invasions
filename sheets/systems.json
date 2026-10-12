@@ -1,0 +1,34 @@
+[
+  {
+    "id": "asset_loader",
+    "name": "Isaac Asset Integration Bridge",
+    "source_companion": "pc-the-binding-of-isaac-rebirth",
+    "asset_dir_relative": "tools/RoomEditor/icons",
+    "enabled": true,
+    "description": "Dynamically resolves companion game installation path and loads native PNG sprites and audio into Godot at runtime."
+  },
+  {
+    "id": "invasion_engine",
+    "name": "Breach & Invasion Simulator",
+    "source_companion": "pc-the-binding-of-isaac-rebirth",
+    "asset_dir_relative": "",
+    "enabled": true,
+    "description": "Spawns and updates corrupted packets, roaming pests, health bars, tear projectile physics, and node bandwidth impacts."
+  },
+  {
+    "id": "defense_builder",
+    "name": "Hardware Node Construction & Management",
+    "source_companion": "pc-upload-labs",
+    "asset_dir_relative": "",
+    "enabled": true,
+    "description": "Renders defense node blueprints on the desktop interface, deducting bytes and managing firing AI."
+  },
+  {
+    "id": "hud_overlay",
+    "name": "Isaac Breach HUD & Terminal",
+    "source_companion": "pc-upload-labs",
+    "asset_dir_relative": "",
+    "enabled": true,
+    "description": "Displays invasion alert banner, corruption level meter, active defense quickbar, and test automation controls."
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
+    {
+      "slug": "custom-upload-labs",
+      "role": "primary"
+    },
+    {
+      "slug": "custom-the-binding-of-isaac-rebirth",
+      "role": "companion"
+    }
+  ],
+  "components": [
+    {
+      "id": "main",
+      "fileName": "IsaacInvasions-Release*.zip",
+      "label": "IsaacInvasions-Release",
+      "kind": "main",
+      "required": true
+    }
+  ],
+  "requirements": [],
+  "mappings": [
+    {
+      "component": "main",
+      "from": "Stan-IsaacInvasions.zip",
+      "to": "{game}/mods/Stan-IsaacInvasions.zip"
+    },
+    {
+      "component": "main",
+      "from": "README.txt",
+      "to": "{game}/mods/README-IsaacInvasions.txt"
+    }
+  ],
+  "launch": {
+    "kind": "game",
+    "env": {
+      "ISAAC_GAME_DIR": "{game:custom-the-binding-of-isaac-rebirth}"
+    }
+  },
+  "test": {
+    "args": [
+      "--verbose"
+    ],
+    "checks": [
+      "breach-simulated",
+      "assets-loaded",
+      "turret-operational"
+    ],
+    "minutes": 2
+  }
+}

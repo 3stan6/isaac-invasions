@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fly",
+    "name": "Demonic Red Fly",
+    "sprite_icon": "013.00.00.png",
+    "health": 25.0,
+    "bandwidth_drain": 4.5,
+    "heat_per_sec": 1.2,
+    "speed": 80.0,
+    "reward_bytes": 1024,
+    "description": "Corrupted packet payload that spawns hovering pests draining bandwidth from host nodes."
+  },
+  {
+    "id": "spider",
+    "name": "Network Cable Spider",
+    "sprite_icon": "015.00.00.png",
+    "health": 40.0,
+    "bandwidth_drain": 8.0,
+    "heat_per_sec": 2.5,
+    "speed": 110.0,
+    "reward_bytes": 2048,
+    "description": "Skittering arachnid malware that crawls along data cables, slowing packet transmission."
+  },
+  {
+    "id": "monstro",
+    "name": "Monstro Malware Boss",
+    "sprite_icon": "020.00.00.png",
+    "health": 250.0,
+    "bandwidth_drain": 25.0,
+    "heat_per_sec": 8.0,
+    "speed": 45.0,
+    "reward_bytes": 16384,
+    "description": "Massive Trojan payload that slams into central router nodes, causing severe overheating and temporary packet lockups."
+  }
+]

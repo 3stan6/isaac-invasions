@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tear_turret",
+    "name": "Tear Cannon Node",
+    "sprite_icon": "005.10.0.png",
+    "cost_bytes": 512,
+    "range_pixels": 260.0,
+    "fire_rate": 2.5,
+    "damage_per_shot": 12.0,
+    "cooling_rate": 0.0,
+    "description": "Constructible network hardware node that fires spectral tears at nearby invading Isaac pests."
+  },
+  {
+    "id": "brimstone_relay",
+    "name": "Brimstone Laser Router",
+    "sprite_icon": "005.100.00.png",
+    "cost_bytes": 2048,
+    "range_pixels": 380.0,
+    "fire_rate": 0.8,
+    "damage_per_shot": 45.0,
+    "cooling_rate": -1.0,
+    "description": "High-throughput demonic laser array that pierces through multiple infected packets and bosses along cable paths."
+  },
+  {
+    "id": "holy_water_cooler",
+    "name": "Holy Water Overclock Cooler",
+    "sprite_icon": "005.150.00.png",
+    "cost_bytes": 1024,
+    "range_pixels": 200.0,
+    "fire_rate": 0.0,
+    "damage_per_shot": 6.0,
+    "cooling_rate": 5.0,
+    "description": "Purifying coolant tank that reduces node heat and creates a consecrated firewall aura purging nearby pests."
+  }
+]

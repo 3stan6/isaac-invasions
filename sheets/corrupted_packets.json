@@ -1,0 +1,29 @@
+[
+  {
+    "id": "packet_blood_tear",
+    "name": "Blood Tear Packet",
+    "sprite_icon": "005.10.0.png",
+    "spawn_rate_per_sec": 0.2,
+    "enemy_spawn_id": "fly",
+    "heat_impact": 3.0,
+    "description": "Demonic telemetry packet that hatches Red Flies when passing unshielded terminals."
+  },
+  {
+    "id": "packet_spider_crawler",
+    "name": "Web Crawler Packet",
+    "sprite_icon": "015.00.00.png",
+    "spawn_rate_per_sec": 0.12,
+    "enemy_spawn_id": "spider",
+    "heat_impact": 5.0,
+    "description": "Malicious spider packet that infests network cables and slows packet processing."
+  },
+  {
+    "id": "packet_trojan_monstro",
+    "name": "Trojan Monstro Payload",
+    "sprite_icon": "020.00.00.png",
+    "spawn_rate_per_sec": 0.03,
+    "enemy_spawn_id": "monstro",
+    "heat_impact": 20.0,
+    "description": "Heavy infected archive packet that unleashes Monstro onto high-tier nodes."
+  }
+]

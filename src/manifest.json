@@ -1,0 +1,28 @@
+{
+  "name": "IsaacInvasions",
+  "namespace": "Stan",
+  "version_number": "1.0.0",
+  "description": "Defend your Upload Labs network nodes against The Binding of Isaac dungeon invasions with corrupted packets and hardware defense turrets.",
+  "website_url": "https://melty.gg/m/isaac-invasions",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "authors": [
+        "Stan"
+      ],
+      "tags": [
+        "mashup",
+        "defense",
+        "isaac"
+      ],
+      "compatible_mod_loader_version": [
+        "6.2.4"
+      ],
+      "compatible_game_version": [
+        "2.0.0",
+        "2.2.12"
+      ],
+      "config_schema": {}
+    }
+  }
+}
